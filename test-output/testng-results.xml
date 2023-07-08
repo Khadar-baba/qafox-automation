@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T17:21:31 IST" name="Default suite" finished-at="2023-07-08T17:21:50 IST" duration-ms="19113">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.learn.testrunner.TestRunner$TestRunnner@63376bed]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-08T17:21:31 IST" name="Default test" finished-at="2023-07-08T17:21:50 IST" duration-ms="19113">
+      <class name="com.auto.learn.testrunner.TestRunner$TestRunnner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.auto.learn.testrunner.TestRunner$TestRunnner@63376bed]" started-at="2023-07-08T17:21:31 IST" name="setUpClass" finished-at="2023-07-08T17:21:31 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.learn.testrunner.TestRunner$TestRunnner@63376bed]" started-at="2023-07-08T17:21:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-08T17:21:49 IST" duration-ms="17991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify use can able to write review in review fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Camera select functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.auto.learn.testrunner.TestRunner$TestRunnner@63376bed]" started-at="2023-07-08T17:21:49 IST" name="tearDownClass" finished-at="2023-07-08T17:21:50 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.auto.learn.testrunner.TestRunner$TestRunnner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
